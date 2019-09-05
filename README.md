@@ -21,4 +21,12 @@ PyTorch: 1.2.
 
 Firstly, download the CUB dataset, then edit the 'path' in args.py to point to your dataset location.
 
+## Start the training.
+
 Use 'python main.py' to start the training .
+
+## BTW
+
+BTW, I used the pre-trained alexnet, you have to put any pre-trained alexnet under the root directory of the folder.
+
+If you do not have a pre-trained alexnet, just use the random inited alexnet is ok.
