@@ -14,8 +14,10 @@ The net sturcture is pretty similar to f-CLSWGAN. The trianing setting is almost
 
 # Environment
 
-Python: 3.7,\\
-PyTorch: 1.2,\\
+Python: 3.7,
+
+PyTorch: 1.2,
+
 scipy.io.
 
 ## Prepare dataset
