@@ -14,12 +14,13 @@ The net sturcture is pretty similar to f-CLSWGAN. The trianing setting is almost
 
 # Environment
 
-Python: 3.7,
-PyTorch: 1.2.
+Python: 3.7,\\
+PyTorch: 1.2,\\
+scipy.io.
 
 ## Prepare dataset
 
-Firstly, download the CUB dataset, then edit the 'path' in args.py to point to your dataset location.
+Firstly, download datasets from https://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip, then edit the 'res_path' and 'att_path' in args.py to point to your dataset location.
 
 ## Start the training.
 
@@ -27,6 +28,4 @@ Use 'python main.py' to start the training .
 
 ## BTW
 
-BTW, I used the pre-trained alexnet, you have to put any pre-trained alexnet under the root directory of the folder.
-
-If you do not have a pre-trained alexnet, just use the random inited alexnet is ok.
+The datasets are 2048-d extracted feature maps from resnet-101.
